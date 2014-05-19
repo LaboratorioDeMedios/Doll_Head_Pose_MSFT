@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7FD42DF7-442E-479A-BA76-D0022F99702A}</ProjectGuid>
+    <RootNamespace>emptyExample</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>Doll_Head_Pose_MSFT</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\libs\openFrameworksCompiled\project\vs\openFrameworksRelease.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\libs\openFrameworksCompiled\project\vs\openFrameworksDebug.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">obj\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">obj\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)_debug</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectName)</TargetName>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2;..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv;..\..\..\addons\ofxOpenCv\src;..\..\..\addons\ofxOpenCv\libs\opencv\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.6.0\inc;$(KINECTSDK10_DIR)\inc;$(FTSDK_DIR)inc;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\mauricio\Documents\MediaLab\openframeworks\libs\openFrameworksCompiled\lib\vs;C:\Users\mauricio\Documents\MediaLab\openframeworks\addons\ofxOsc\libs\oscpack\src\osc;C:\Users\mauricio\Documents\MediaLab\openframeworks\addons\ofxOsc\src;C:\Users\mauricio\Documents\MediaLab\openframeworks\addons\ofxMidi\libs\rtmidi;..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2;..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv;..\..\..\addons\ofxOpenCv\libs\opencv\include;..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(FTSDK_DIR)Lib\x86;$(KINECTSDK10_DIR)\Lib\x86;$(LibraryPath)</LibraryPath>
+    <ReferencePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;</ReferencePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.6.0\inc;$(KINECTSDK10_DIR)\inc;$(FTSDK_DIR)inc;$(IncludePath);</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(FTSDK_DIR)Lib\x86;$(KINECTSDK10_DIR)\Lib\x86;$(LibraryPath)</LibraryPath>
+    <SourcePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\addons\ofxOpenCv\src;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\..\..\addons\ofxXmlSettings\src;..\..\..\addons\ofxXmlSettings\libs;..\..\..\ofxOpenCv\libs\opencv\include\opencv2\core;..\..\..\ofxOpenCv\libs\opencv\include\opencv;..\..\..\addons\ofxOpenCv\src;%(AdditionalIncludeDirectories);src;..\..\..\addons\ofxMidi\src;..\..\..\addons\ofxMidi\src\desktop\rtmidi;..\..\..\addons\ofxOsc\src;..\..\..\addons\ofxOsc\libs\oscpack\src\osc;..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32;..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix;..\..\..\addons\ofxOsc\libs\oscpack\src\ip;..\..\..\addons\ofxOsc\libs\oscpack\src;..\..\..\addons\ofxOsc\libs\oscpack;..\..\..\addons\ofxOsc\libs;..\..\..\addons\ofxOsc</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;POCO_STATIC;CAIRO_WIN32_STATIC_BUILD;DISABLE_SOME_FLOATING_POINT;%(PreprocessorDefinitions);_WINDOWS</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName)_debugInfo.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>openframeworksLib_debug.lib;FaceTrackLib.lib;kernel32.lib;user32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Kinect10.lib;opencv_calib3d231d.lib;opencv_contrib231d.lib;opencv_core231d.lib;opencv_features2d231d.lib;opencv_flann231d.lib;opencv_gpu231d.lib;opencv_haartraining_engined.lib;opencv_highgui231d.lib;opencv_imgproc231d.lib;opencv_legacy231d.lib;opencv_ml231d.lib;opencv_objdetect231d.lib;opencv_video231d.lib;zlibd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Lib\x86;C:\Users\mauricio\Documents\MediaLab\openframeworks\addons\_medialab\myFaceTracker\lib;C:\Users\mauricio\Documents\MediaLab\openframeworks\addons\ofxCv\libs\CLD\include\CLD;C:\Users\mauricio\Documents\MediaLab\openframeworks\addons\ofxCv\libs\ofxCv\include\ofxCv;C:\Users\mauricio\Documents\MediaLab\openframeworks\addons\ofxOpenCv\libs\opencv\lib\vs;C:\Users\mauricio\Documents\MediaLab\openframeworks\libs\openFrameworksCompiled\lib\vs</AdditionalLibraryDirectories>
+      <ShowProgress>LinkVerbose</ShowProgress>
+    </Link>
+    <PostBuildEvent />
+    <ProjectReference>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat />
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\addons\ofxMidi\src;..\..\..\addons\ofxMidi\src\desktop\rtmidi;;..\..\..\addons\ofxMidi\src;..\..\..\addons\ofxMidi\src\desktop\rtmidi;;..\..\..\addons\ofxMidi\src;..\..\..\addons\ofxMidi\src\desktop\rtmidi;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\desktop\ofxRtMidiIn.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\desktop\ofxRtMidiOut.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxBaseMidi.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidi.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidiIn.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidiMessage.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidiOut.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvHaarFinder.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvImage.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix\NetworkingUtils.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix\UdpSocket.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32\NetworkingUtilsWin.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32\UdpSocketWin.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscBundle.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscMessage.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscReceiver.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscSender.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp" />
+    <ClCompile Include="..\..\ofxMidi\src\desktop\rtmidi\RtMidi.cpp" />
+    <ClCompile Include="src\Chromation.cpp" />
+    <ClCompile Include="src\FaceAnalizer.cpp" />
+    <ClCompile Include="src\FaceData.cpp" />
+    <ClCompile Include="src\FaceFrame.cpp" />
+    <ClCompile Include="src\FaceFrameWalrus.cpp" />
+    <ClCompile Include="src\FacesManagerWalrus.cpp" />
+    <ClCompile Include="src\FacesManagerTraces.cpp" />
+    <ClCompile Include="src\FaceTrackerManager.cpp" />
+    <ClCompile Include="src\FaceWalrus.cpp" />
+    <ClCompile Include="src\FTHelper.cpp" />
+    <ClCompile Include="src\KinectManager.cpp" />
+    <ClCompile Include="src\KinectSensor.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\MatrixVibroSound.cpp" />
+    <ClCompile Include="src\MidiGenerator.cpp" />
+    <ClCompile Include="src\Traces.cpp" />
+    <ClCompile Include="src\stdafx.cpp" />
+    <ClCompile Include="src\tom.cpp" />
+    <ClCompile Include="src\VibrationGenerator.cpp" />
+    <ClCompile Include="src\VibrationPattern.cpp" />
+    <ClCompile Include="src\Visualize.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\desktop\ofxRtMidiIn.h" />
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\desktop\ofxRtMidiOut.h" />
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxBaseMidi.h" />
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidi.h" />
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiConstants.h" />
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiIn.h" />
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiMessage.h" />
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiOut.h" />
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiTypes.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvBlob.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvConstants.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvHaarFinder.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvImage.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvMain.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.h" />
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxOpenCv.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\NetworkingUtils.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\PacketListener.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\TimerListener.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\UdpSocket.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\MessageMappingOscPacketListener.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscException.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscHostEndianness.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscPacketListener.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOsc.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscArg.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscBundle.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscMessage.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscReceiver.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscSender.h" />
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h" />
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h" />
+    <ClInclude Include="..\..\ofxMidi\src\desktop\rtmidi\RtError.h" />
+    <ClInclude Include="..\..\ofxMidi\src\desktop\rtmidi\RtMidi.h" />
+    <ClInclude Include="KinectManager.h" />
+    <ClInclude Include="src\Chromation.h" />
+    <ClInclude Include="src\FaceAnalizer.h" />
+    <ClInclude Include="src\FaceData.h" />
+    <ClInclude Include="src\FaceFrameWalrus.h" />
+    <ClInclude Include="src\FaceWalrus.h" />
+    <ClInclude Include="src\MatrixVibroSound.h" />
+    <ClInclude Include="src\MidiGenerator.h" />
+    <ClInclude Include="src\Traces.h" />
+    <ClInclude Include="src\FaceFrame.h" />
+    <ClInclude Include="src\FacesManagerWalrus.h" />
+    <ClInclude Include="src\FacesManagerTraces.h" />
+    <ClInclude Include="src\FaceTrackerManager.h" />
+    <ClInclude Include="src\FTHelper.h" />
+    <ClInclude Include="src\KinectManager.h" />
+    <ClInclude Include="src\KinectSensor.h" />
+    <ClInclude Include="src\MIDIHelper.h" />
+    <ClInclude Include="src\stdafx.h" />
+    <ClInclude Include="src\targetver.h" />
+    <ClInclude Include="src\tom.h" />
+    <ClInclude Include="src\VibrationGenerator.h" />
+    <ClInclude Include="src\VibrationPattern.h" />
+    <ClInclude Include="src\Visualize.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\ofxMidi\src\desktop\rtmidi\readme" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

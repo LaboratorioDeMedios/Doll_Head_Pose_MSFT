@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\FTHelper.cpp">
+      <Filter>face tracker msr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KinectSensor.cpp">
+      <Filter>face tracker msr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>face tracker msr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Visualize.cpp">
+      <Filter>face tracker msr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\desktop\ofxRtMidiIn.cpp">
+      <Filter>addons\ofxMidi\src\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\desktop\ofxRtMidiOut.cpp">
+      <Filter>addons\ofxMidi\src\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxBaseMidi.cpp">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidi.cpp">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidiIn.cpp">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidiMessage.cpp">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMidi\src\ofxMidiOut.cpp">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.cpp">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.cpp">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.cpp">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.cpp">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvHaarFinder.cpp">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvImage.cpp">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.cpp">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix\NetworkingUtils.cpp">
+      <Filter>addons\ofxOsc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix\UdpSocket.cpp">
+      <Filter>addons\ofxOsc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32\NetworkingUtilsWin.cpp">
+      <Filter>addons\ofxOsc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32\UdpSocketWin.cpp">
+      <Filter>addons\ofxOsc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.cpp">
+      <Filter>addons\ofxOsc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.cpp">
+      <Filter>addons\ofxOsc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.cpp">
+      <Filter>addons\ofxOsc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.cpp">
+      <Filter>addons\ofxOsc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.cpp">
+      <Filter>addons\ofxOsc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscBundle.cpp">
+      <Filter>addons\ofxOsc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscMessage.cpp">
+      <Filter>addons\ofxOsc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscReceiver.cpp">
+      <Filter>addons\ofxOsc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscSender.cpp">
+      <Filter>addons\ofxOsc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>addons\ofxXmlSettings\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>addons\ofxXmlSettings\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>addons\ofxXmlSettings\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tom.cpp">
+      <Filter>Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FaceTrackerManager.cpp">
+      <Filter>Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KinectManager.cpp">
+      <Filter>Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Traces.cpp">
+      <Filter>Traces %280%29</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FacesManagerTraces.cpp">
+      <Filter>Traces %280%29</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MatrixVibroSound.cpp">
+      <Filter>MatrixVibroSound %281%29</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FaceWalrus.cpp">
+      <Filter>FaceWalrus %282%29</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FacesManagerWalrus.cpp">
+      <Filter>FaceWalrus %282%29</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FaceFrame.cpp">
+      <Filter>Traces %280%29</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FaceFrameWalrus.cpp">
+      <Filter>FaceWalrus %282%29</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Chromation.cpp">
+      <Filter>Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MidiGenerator.cpp">
+      <Filter>MatrixVibroSound %281%29</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FaceAnalizer.cpp">
+      <Filter>Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VibrationGenerator.cpp">
+      <Filter>MatrixVibroSound %281%29</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VibrationPattern.cpp">
+      <Filter>MatrixVibroSound %281%29</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FaceData.cpp">
+      <Filter>Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ofxMidi\src\desktop\rtmidi\RtMidi.cpp">
+      <Filter>addons\ofxMidi\src\desktop\rtmidi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\KinectSensor.h">
+      <Filter>face tracker msr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FTHelper.h">
+      <Filter>face tracker msr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\targetver.h">
+      <Filter>face tracker msr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stdafx.h">
+      <Filter>face tracker msr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Visualize.h">
+      <Filter>face tracker msr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\desktop\ofxRtMidiIn.h">
+      <Filter>addons\ofxMidi\src\desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\desktop\ofxRtMidiOut.h">
+      <Filter>addons\ofxMidi\src\desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxBaseMidi.h">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidi.h">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiConstants.h">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiIn.h">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiMessage.h">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiOut.h">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMidi\src\ofxMidiTypes.h">
+      <Filter>addons\ofxMidi\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvBlob.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxOpenCv.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvConstants.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvHaarFinder.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvImage.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvMain.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.h">
+      <Filter>addons\ofxOsc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\NetworkingUtils.h">
+      <Filter>addons\ofxOsc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\PacketListener.h">
+      <Filter>addons\ofxOsc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\TimerListener.h">
+      <Filter>addons\ofxOsc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\UdpSocket.h">
+      <Filter>addons\ofxOsc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\MessageMappingOscPacketListener.h">
+      <Filter>addons\ofxOsc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscException.h">
+      <Filter>addons\ofxOsc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscHostEndianness.h">
+      <Filter>addons\ofxOsc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.h">
+      <Filter>addons\ofxOsc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscPacketListener.h">
+      <Filter>addons\ofxOsc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.h">
+      <Filter>addons\ofxOsc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.h">
+      <Filter>addons\ofxOsc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.h">
+      <Filter>addons\ofxOsc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOsc.h">
+      <Filter>addons\ofxOsc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscArg.h">
+      <Filter>addons\ofxOsc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscBundle.h">
+      <Filter>addons\ofxOsc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscMessage.h">
+      <Filter>addons\ofxOsc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscReceiver.h">
+      <Filter>addons\ofxOsc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscSender.h">
+      <Filter>addons\ofxOsc</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectManager.h">
+      <Filter>face tracker msr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>addons\ofxXmlSettings\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tom.h">
+      <Filter>Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FaceTrackerManager.h">
+      <Filter>Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KinectManager.h">
+      <Filter>Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Traces.h">
+      <Filter>Traces %280%29</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FacesManagerTraces.h">
+      <Filter>Traces %280%29</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MIDIHelper.h">
+      <Filter>Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MatrixVibroSound.h">
+      <Filter>MatrixVibroSound %281%29</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FaceWalrus.h">
+      <Filter>FaceWalrus %282%29</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FacesManagerWalrus.h">
+      <Filter>FaceWalrus %282%29</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FaceFrame.h">
+      <Filter>Traces %280%29</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FaceFrameWalrus.h">
+      <Filter>FaceWalrus %282%29</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Chromation.h">
+      <Filter>Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MidiGenerator.h">
+      <Filter>MatrixVibroSound %281%29</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FaceAnalizer.h">
+      <Filter>Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VibrationGenerator.h">
+      <Filter>MatrixVibroSound %281%29</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VibrationPattern.h">
+      <Filter>MatrixVibroSound %281%29</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FaceData.h">
+      <Filter>Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ofxMidi\src\desktop\rtmidi\RtError.h">
+      <Filter>addons\ofxMidi\src\desktop\rtmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ofxMidi\src\desktop\rtmidi\RtMidi.h">
+      <Filter>addons\ofxMidi\src\desktop\rtmidi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="face tracker msr">
+      <UniqueIdentifier>{0b078175-bfe8-4d33-ba92-9de8cf111858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{9a66fb7c-fa3d-46d9-a291-2a21ff2c7930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxMidi">
+      <UniqueIdentifier>{1d1fc477-8268-4c7c-a8dd-d63c10af612d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxMidi\src">
+      <UniqueIdentifier>{6281b1bc-f811-4689-b948-03c8b3720405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxMidi\src\desktop">
+      <UniqueIdentifier>{8e1579ea-f95a-4374-8ea1-67968d7f27e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOpenCv">
+      <UniqueIdentifier>{e9fafd1c-a567-428d-9d50-42fc8da0afec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOsc">
+      <UniqueIdentifier>{c3b089d6-94d3-4802-ac93-8d97f19b8826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings">
+      <UniqueIdentifier>{59afe81c-568b-4544-8e16-d17661ea9976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\src">
+      <UniqueIdentifier>{a7e07c0d-768b-49a4-a6e7-b6cbceb7c660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\lib">
+      <UniqueIdentifier>{123f758c-a912-4ac0-a5ed-72167483b938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FaceWalrus %282%29">
+      <UniqueIdentifier>{cdd27fe2-2737-44a7-a05e-7a0815b00f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatrixVibroSound %281%29">
+      <UniqueIdentifier>{7eedb841-7364-4196-98af-c911935d9ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Traces %280%29">
+      <UniqueIdentifier>{33d8bbd9-9d32-43cc-a99c-c753cca6329a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commons">
+      <UniqueIdentifier>{0823001f-1e6c-4731-b25d-a755a55070b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxMidi\src\desktop\rtmidi">
+      <UniqueIdentifier>{4f570332-c9e9-4baa-8db9-810d8bb031e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\ofxMidi\src\desktop\rtmidi\readme">
+      <Filter>addons\ofxMidi\src\desktop\rtmidi</Filter>
+    </None>
+  </ItemGroup>
+</Project>
